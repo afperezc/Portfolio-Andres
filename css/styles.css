@@ -43,6 +43,10 @@ h2 {
   font-family: var(--fontHeaders1);
 }
 
+img{
+  max-width: 100%;
+}
+
 /* UTILITIES */
 
 .text-center {
@@ -303,12 +307,6 @@ h2 {
 }
 }
 
-/* MAIN */
-
-.container-main {
-  height: 30rem;
-}
-
 /* SECTIONS */
 
 .sections{
@@ -374,6 +372,36 @@ h2 {
     padding: 5rem 2rem;
   }
 }
+
+/* MAIN CONTAINER */
+/* MAIN CONTAINER */
+
+/* CONTAINER WHO */
+
+.container-who{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.title-who{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 2.5rem 0 1.5rem 0;
+}
+
+.grid-who{
+  background-color: var(--dark);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5rem;
+}
+
+.img-who img{
+  height: 50rem;
+  width: 50rem;
+  object-fit: cover;
+}
+
 
 /* FOOTER */
 
