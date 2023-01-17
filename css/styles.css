@@ -279,7 +279,8 @@ img {
   font-family: var(--fontBody1);
   font-weight: 700;
   font-size: 1rem;
-  column-gap: 2rem;
+  column-gap: 1rem;
+  max-width: 20rem;
 }
 
 .social-btns {
@@ -293,6 +294,11 @@ img {
   align-items: center;
   width: 10rem;
   transition: background-color 0.5s ease-in;
+}
+
+.social-btns p{
+  font-size: 1.2rem;
+  padding: 0 1rem;
 }
 
 .social-btns:hover {
@@ -340,14 +346,18 @@ img {
 
   .social-btns {
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 1rem 2rem;
     border-radius: 5rem;
     display: flex;
     flex-direction: row;
     column-gap: 1rem;
     align-items: center;
-    width: 20rem;
+    width: 25rem;
     justify-content: center;
+  }
+
+  .social-btns p{
+    font-size: 2rem;
   }
 
   .social-btns svg {
@@ -367,7 +377,7 @@ img {
 }
 
 .sections {
-  padding: 1.2rem 10rem;
+  padding: 1.2rem 5rem;
   justify-content: center;
 }
 
