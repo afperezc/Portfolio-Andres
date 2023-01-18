@@ -292,12 +292,13 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 10rem;
+  width: 8.2rem;
+  padding: 0 0.4rem;
   transition: background-color 0.5s ease-in;
 }
 
 .social-btns p{
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0 1rem;
 }
 
@@ -306,7 +307,7 @@ img {
 }
 
 .social-btns svg {
-  scale: 0.4;
+  scale: 0.8;
 }
 
 @media (min-width: 768px) {
