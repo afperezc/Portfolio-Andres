@@ -433,7 +433,7 @@ img {
 }
 
 /* MAIN CONTAINER */
-/* MAIN CONTAINER */
+/* MAIN CONTAINER INDEX */
 
 .title-index{
   font-family: var(--fontHeaders1);
@@ -819,6 +819,154 @@ img {
 /* DEVELOPMENT */
 
 /* ART */
+
+/* 2D IMAGES */
+
+.images-2d-container{
+  max-width: 120rem;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.art-title{
+  margin: 5rem 0; 
+}
+
+.grid-2d-images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-2d-images img{
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+
+  .grid-2d-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    max-width: 80rem;
+  }
+
+  .grid-2d-images img{
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+  }
+  
+  .art-2d-img1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .art-2d-img2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .art-2d-img3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .art-2d-img4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .art-2d-img5{
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  .art-2d-img6{
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+  .art-2d-img7{
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+  .art-2d-img8{
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+  .art-2d-img9{
+    grid-row: 5/6;
+    grid-column: 1/2;
+  }
+  .hover-img img{
+    transition: transform 0.3s ease-in;
+  }
+  
+  .hover-img img:hover{
+    transform: scale(0.85);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-2d-images img{
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+  }
+  .grid-2d-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    max-width: 120rem;
+  }
+  .art-2d-img1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .art-2d-img2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .art-2d-img3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  .art-2d-img4{
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .art-2d-img5{
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .art-2d-img6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+  .art-2d-img7{
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  .art-2d-img8{
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+  .art-2d-img9{
+    grid-row: 3/4;
+    grid-column: 3/4;
+  }
+  .hover-img img{
+    transition: transform 0.3s ease-in;
+  }
+  
+  .hover-img img:hover{
+    transform: scale(0.85);
+  }
+}
+
+/* 3D IMAGES */
+
 
 /* CONTACT */
 
