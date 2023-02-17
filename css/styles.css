@@ -45,6 +45,7 @@ h2 {
 
 img {
   max-width: 100%;
+  margin-bottom: 0;
 }
 
 /* UTILITIES */
@@ -1063,9 +1064,7 @@ img {
   }
   .hover-img img{
     transition: transform 0.3s ease-in;
-
-  }
-  
+  } 
   .hover-img img:hover{
     transform: scale(0.85);
   }
@@ -1136,25 +1135,20 @@ img {
   margin: 0 auto;
   list-style: none;
 }
-
 .art-title{
   margin: 5rem 0; 
 }
-
 .grid-3d-images{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .grid-3d-images img{
   width: 40rem;
   height: 40rem;
   object-fit: cover;
 }
-
 @media (min-width: 768px) {
-
   .grid-3d-images{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -1163,13 +1157,11 @@ img {
     row-gap: 2rem;
     max-width: 80rem;
   }
-
   .grid-3d-images img{
     width: 40rem;
     height: 40rem;
     object-fit: cover;
   }
-  
   .art-3d-img1{
     grid-row: 1/2;
     grid-column: 1/2;
@@ -1275,10 +1267,35 @@ img {
 }
 /* CONTACT */
 
+
 .work-progress{
   font-size: 5rem;
 }
 
+.contact-info{
+  text-align: center;
+  border: 2px solid var(--dark);
+  margin: 0 5rem;
+}
+
+@media (min-width: 768px) {
+    .contact-info{
+      width: 30%;
+      margin: 0 auto;
+    }
+}
+
+.contact-info p{
+  font-family: var(--fontBody1);
+  font-size: 2.6rem;
+  transition: transform 0.3s;
+}
+
+.contact-info p:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  font-weight: 700;
+}
 
 /* WORK IN PROGRESS CUBE */
 
