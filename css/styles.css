@@ -640,7 +640,7 @@ img {
 .container-experience{
   margin: 0;
   padding: 5rem 0;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to left top,
     #3b0808 15%,
     #d8521d 60%,
@@ -648,7 +648,7 @@ img {
     #ffcc33,
     #ffe484,
     #ffffff
-  );
+  ); */
 }
 .title-experience{
   margin: 5rem 0;
